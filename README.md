@@ -81,9 +81,13 @@ Seja criativo!
 
 Responda às questões abaixo diretamente neste arquivo `README.md` do seu fork:
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
-2. Gráfico selecionado: <IMAGEM_DO_GRAFICO_SELECIONADO_AQUI>
-3. Explicação: <EXPLICACAO_AQUI>
+1. Repositório selecionado: [langchain](https://github.com/langchain-ai/langchain)
+2. Gráfico selecionado:
+   
+   ![quantidade de classes](https://github.com/arthurqu18/exploring-code-evolution/blob/d25f26de6835f54da203dd30c2163c1de473b56f/function%20and%20classes.png)
+   ![média de LOC por classe](https://github.com/arthurqu18/exploring-code-evolution/blob/d25f26de6835f54da203dd30c2163c1de473b56f/image.png)
+   
+4. Explicação: Em um projeto que faz várias refatorações para melhorar a legibilidade, manutenibilidade, etc, esperamos que os dois gráficos acima possuísse um padrão: aumentar a quantidade de classes, veriamos uma diminuição na média do LOC of classes (ocorrendo, por exemplo, uma extração de classe). Mas não é o que vemos nesse projeto, aumentando a **quantidade de classes** aumenta a **média do LOC nas classes** e vice-versa, ou seja, parece que o projeto adiciona novas classes a medida que adiciona novas funcionalidades, sem pensar em uma refatoração, em uma primeira impressão.
 
 
 
